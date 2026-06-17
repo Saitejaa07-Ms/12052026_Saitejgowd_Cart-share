@@ -1,6 +1,6 @@
 # CartShare - Collaborative Shopping Ecosystem
 
-**12052026_KeerthanaGowd_CartShare** | Frontend Internship Project
+**12052026_SaitejGowd_CartShare** | Frontend Internship Project
 
 ## 📋 Project Overview
 CartShare is a real-time collaborative web app designed to solve communication gaps during group online shopping. Users can create/join rooms with unique codes,manage a shared cart with real-time updates for all users in the room.
