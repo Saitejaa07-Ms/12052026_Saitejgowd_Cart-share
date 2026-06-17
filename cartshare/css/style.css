@@ -1,0 +1,203 @@
+/* =========================================================
+   CartShare - style.css
+   Step 1: Auth page styling
+   (Dashboard, cart, and print styles added in later steps)
+   ========================================================= */
+
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* ---------- AUTH PAGE ---------- */
+
+.auth-body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.auth-wrapper {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.auth-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.brand-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #eef0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+#authTab .nav-link {
+  color: #4e54c8;
+}
+
+#authTab .nav-link.active {
+  background-color: #4e54c8;
+  color: #fff;
+}
+
+/* ---------- DASHBOARD: HEADER ---------- */
+
+.app-navbar {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+/* ---------- DASHBOARD: ROOM GATE ---------- */
+
+.room-gate-wrapper {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.room-gate-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* ---------- DASHBOARD: PRODUCT GALLERY ---------- */
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+}
+
+.product-emoji {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+/* ---------- DASHBOARD: CART PANEL ---------- */
+
+.cart-panel, .activity-panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  height: 100%;
+}
+
+.cart-items-list {
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.cart-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+/* ---------- DASHBOARD: ACTIVITY FEED ---------- */
+
+.activity-feed {
+  max-height: 420px;
+  overflow-y: auto;
+  font-size: 0.8rem;
+}
+
+.activity-entry {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 6px 0;
+}
+
+/* ---------- RESPONSIVE TWEAKS ---------- */
+
+@media (max-width: 991px) {
+  .cart-panel, .activity-panel {
+    margin-top: 12px;
+  }
+}
+
+/* ---------- RECEIPT PAGE (SCREEN VIEW) ---------- */
+
+.receipt-toolbar {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.receipt-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.receipt-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+}
+
+.receipt-table th, .receipt-table td {
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   PRINT MEDIA RULES
+   Everything in this block ONLY applies when the page is
+   sent to a printer or "Save as PDF" — never on screen.
+   This satisfies the brief's "CSS print media rules" requirement.
+   ========================================================= */
+
+@media print {
+
+  /* Hide anything not meant to be on the printed page */
+  .no-print,
+  .app-navbar,
+  .receipt-toolbar {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+  }
+
+  .receipt-wrapper {
+    padding: 0;
+  }
+
+  .receipt-card {
+    box-shadow: none !important;
+    border: none;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* Force black text and white background for clean printing */
+  * {
+    color: #000 !important;
+    background: #fff !important;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  /* Avoid a row splitting across two pages */
+  tr {
+    page-break-inside: avoid;
+  }
+}
