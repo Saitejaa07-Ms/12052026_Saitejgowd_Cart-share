@@ -19,7 +19,7 @@ Built for hostel/office scenarios where friends order together from Swiggy, Blin
 ## 🚀 How to Run the Application Locally
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/keerthanagowd/12052026_KeerthanaGowd_CartShare.git
+   git clone https://github.com/keerthanagowd/12052026_SaitejGowd_CartShare.git
 ## 📸 Screenshots
 
 ### 1. Login Page
