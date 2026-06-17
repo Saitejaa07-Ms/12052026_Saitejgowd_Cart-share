@@ -25,16 +25,21 @@ Built for hostel/office scenarios where friends order together from Swiggy, Blin
 ### 1. Login Page
 <img width="1366" height="672" alt="image" src="https://github.com/user-attachments/assets/700d6ac2-3767-40fc-8a36-b44b551d48ce" />
 
-![Login Page](./cartshare/assets/login.jpeg)
 
 ### 2. Register Page  
-![Register Page](./cartshare/assets/register.jpeg)
+<img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/63a353af-fe32-4e7e-b4cf-24d67391cc52" />
+
 
 ### 3. Dashboard - Empty Cart
-![Dashboard Empty](./cartshare/assets/catalog.jpeg)
+<img width="1365" height="676" alt="image" src="https://github.com/user-attachments/assets/4c2545bf-6348-479a-8d0e-acf67de47b37" />
+
 
 ### 4. Dashboard - With Items
-![Dashboard Cart](./cartshare/assets/cart.jpeg)
+<img width="1366" height="685" alt="image" src="https://github.com/user-attachments/assets/14a34f6c-c2d7-4075-9d9d-b793a37c2a1e" />
+
 
 ### 5. Payment Receipt
-![Receipt](./cartshare/assets/recipt.jpeg)
+<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/db4fed63-3628-4c76-9547-18efdab0debb" />
+
+### 6. Print Receipt View
+<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/33b9f9a2-e1a7-4802-85c8-bd49ff91f7c3" />
