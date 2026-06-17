@@ -21,9 +21,10 @@ Built for hostel/office scenarios where friends order together from Swiggy, Blin
    ```bash
    git clone https://github.com/keerthanagowd/12052026_SaitejGowd_CartShare.git
 ## 📸 Screenshots
-<img width="1366" height="672" alt="image" src="https://github.com/user-attachments/assets/700d6ac2-3767-40fc-8a36-b44b551d48ce" />
 
 ### 1. Login Page
+<img width="1366" height="672" alt="image" src="https://github.com/user-attachments/assets/700d6ac2-3767-40fc-8a36-b44b551d48ce" />
+
 ![Login Page](./cartshare/assets/login.jpeg)
 
 ### 2. Register Page  
